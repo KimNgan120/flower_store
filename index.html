@@ -1,543 +1,758 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Flower Store</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Flower Store</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Squadfree
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
   * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-transparent">
+      <div
+        class="container d-flex align-items-center justify-content-between position-relative"
+      >
+        <div class="logo">
+          <h1 class="text-light">
+            <a href="index.html"><span>Flower Store </span></a>
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/images.jpeg" alt="" class="img-fluid"></a> -->
+        </div>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
-    <div class="container d-flex align-items-center justify-content-between position-relative">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="#hero">Trang Chủ</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#about">Giới Thiệu</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#services">Nghe Hoa Kể</a></li> -->
+            <li>
+              <a class="nav-link scrollto" href="#product"
+                ><span>Sản Phẩm</span></a
+              >
+              <!-- <i class="bi bi-chevron-down"></i> muốn sd lại cho vào thẻ a có #product -->
+              <!-- <ul>
+                <li>
+                  <strong>Hoa bó </strong>
+                  <a href="#">Flower Box</a>
+                  <a href="#">Hoa Cưới</a>
+                  <a href="#">Hoa Tang</a>
+                </li>
+                <li>
+                  <strong>Hoa từng loại</strong>
+                  <a href="#">Hoa tu líp</a>
+                  <a href="#">Lan hồ điệp</a>
+                  <a href="#">Hoa mẫu đơn</a>
+                </li>
+                <li>
+                  <strong>Phụ Kiện</strong>
+                  <a href="#">Bình Hoa</a>
+                  <a href="#">Giỏ Hoa</a>
+                  <a href="#">Hộp Hoa</a>
+                </li>
+              </ul> -->
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#gift">Quà tặng kèm</a>
+              <!-- <i class="bi bi-chevron-down"></i> muốn sd lại cho vào thẻ a có # -->
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Liên hệ</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Envy's Store
-        </span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/images.jpeg" alt="" class="img-fluid"></a> -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container" data-aos="fade-up">
+        <h1>Flowers from the heart</h1>
+
+        <a href="#about" class="btn-get-started scrollto"
+          ><i class="bx bx-chevrons-down"></i
+        ></a>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row no-gutters">
+            <div
+              class="content col-xl-5 d-flex align-items-stretch"
+              data-aos="fade-up"
+            >
+              <div class="content">
+                <h3>Flower Store</h3>
+                <p>
+                  Cuộc sống tươi đẹp. Đó là thông điệp mà chúng tôi muốn truyền
+                  tải đến bạn, mỗi ngày của bạn hãy luôn rực rỡ, đầy năng lượng
+                  và nhiều yêu thương như những bông hoa biết nói. Những mảng
+                  tường xanh mát, nắng đan xen qua giàn dây leo lá rũ, tạo một
+                  cảm giác bình yên, nhẹ nhàng và gần gũi . Mời bạn ghé thăm
+                  ngôi nhà rất thơ này để cùng ngắm nhìn nhiều loại hoa tươi
+                  trong nước đến các loại hoa cao cấp nhập khẩu từ Ecuador, Hà
+                  Lan, Nam Phi, Nhật Bản… Đội ngũ Florist chúng tôi - các bạn
+                  trẻ đầy sáng tạo, đam mê và nhiệt huyết với mong muốn tạo được
+                  sự gắn kết cảm xúc và lan toả yêu thương qua những bông hoa
+                  tươi thắm. Mỗi một sản phẩm hoa hoàn thiện được trao đến tay
+                  khách hàng là tất cả sự tận tâm và trân trọng của chúng tôi .
+                </p>
+                <a href="#" class="about-btn"
+                  >About us <i class="bx bx-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-stretch">
+              <div class="icon-boxes d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <i class="bx bx-receipt"></i>
+                    <h4>Chứng nhận cấp quốc gia</h4>
+                    <p>
+                      Chứng nhận được cấp ngày 11-11-2022. Cam kết mang đến cho
+                      khách hàng những sản phẩm tốt đẹp nhất
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Nguồn hàng đáng tin cậy</h4>
+                    <p>Chúng tôi luôn theo sát quá trình nhập, xuất khẩu.</p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="bx bx-images"></i>
+                    <h4>Hình ảnh chân thật</h4>
+                    <p>
+                      Chúng tôi cam đoan những sản phẩm mang đến khách hàng
+                      giống hình 100%
+                    </p>
+                  </div>
+                  <div
+                    class="col-md-6 icon-box"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <i class="bx bx-shield"></i>
+                    <h4>Đảm bảo an toàn</h4>
+                    <p>Mọi sản phẩm đều được chúng tôi kiểm tra nghiêm ngặt</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End .content-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts section-bg">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Khách hàng cảm thấy hài lòng</strong></p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Sản Phẩm</strong> đã được bán đi</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1463"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Phản hồi tích cực</strong> từ khách hàng</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="15"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Cta Section ======= -->
+      <!-- End Cta Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="product" class="portfolio">
+        <div class="container">
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2>Sản Phẩm Nổi Bật</h2>
+            <p>
+              Trên đây là các sản phẩm nổi bật được người tiêu dùng yêu thích
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Hoa bó</li>
+                <li data-filter=".filter-card">Hoa từng loại</li>
+                <li data-filter=".filter-web">Phụ kiện</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container" data-aos="fade-up">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/download.jpeg"
+                  class="img-fluid"
+                  alt="anh 1"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Bó hoa hồng 50 bông</h5>
+                  <p class="cost">1.370.000VND</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/images.jpeg"
+                  class="img-fluid"
+                  alt="anh 2"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Bó hồng kem 8 bông</h5>
+                  <p class="cost">550.000VND</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/images (1).jpeg"
+                  class="img-fluid"
+                  alt="anh 3"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Bó hoa hồng 99 bông valentine</h5>
+                  <p class="cost">27.000.000VND</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/Hoatulip.jpg"
+                  class="img-fluid"
+                  alt="anh 4"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Hoa Tulip tươi 10 cành</h5>
+                  <p class="cost">500.000VND</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/cuctana.jpg"
+                  class="img-fluid"
+                  alt="anh 5"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Cúc Tana</h5>
+                  <p class="cost">800.000VND/bó</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/huongduong.jpg"
+                  class="img-fluid"
+                  alt="anh 6"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Bông hướng dương mix hoa sao tím</h5>
+                  <p class="cost">330.000VND</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/Binhhoa.png"
+                  class="img-fluid"
+                  alt="anh 7"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">
+                    Bộ 2 bình thủy tinh xám khói viền mạ vàng
+                  </h5>
+                  <p class="cost">1.072.000VND</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/binhhoa.jpg"
+                  class="img-fluid"
+                  alt="anh 8"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">Bình hoa thủy tinh cổ vàng</h5>
+                  <p class="cost">298.000VND</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/Binhhoa3.jpg"
+                  class="img-fluid"
+                  alt="anh 9"
+                />
+                <div class="portfolio-details">
+                  <h5 class="name">
+                    Bình gốm trang trí phòng khách hoa mùa xuân
+                  </h5>
+                  <p class="cost">785.000VND</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="gift" class="team">
+        <div class="container">
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2>Quà tặng kèm</h2>
+            <p>
+              Với kinh nghiệm nghiên cứu nhiều năm, chúng tôi luông mong muốn
+              mang đến những sản phẩm chất lượng cho quý khách
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="member" data-aos="fade-up">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Nguyễn Văn A</h4>
+                  <span>CEO - Envy store</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="150">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Madam</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="pic">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Nguyễn Phạm Xuân Đạt</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Thông tin liên lạc</h2>
+            <p>
+              Mọi thắc mắc vui lòng liên hệ thông tin bên dưới, mọi thắc mắc của
+              các bạn sẽ được giải đáp. Xin cảm ơn!
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="info-box mb-4">
+                <i class="bx bx-map"></i>
+                <h3>Địa Chỉ</h3>
+                <p>Quận 7, Thành Phố Hồ Chí Minh</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box mb-4">
+                <i class="bx bx-envelope"></i>
+                <h3>Email</h3>
+                <p>Enzy721@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box mb-4">
+                <i class="bx bx-phone-call"></i>
+                <h3>Thông Tin Liên Lạc</h3>
+                <p>+84 392382707</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <iframe
+                class="mb-4 mb-lg-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62719.35685987481!2d106.6933227169938!3d10.737581490979144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752560b050b093%3A0x6dcb89c51055ccc9!2zUXXhuq1uIDcsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1681037968701!5m2!1svi!2s"
+                frameborder="0"
+                style="border: 0; width: 100%; height: 384px"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info">
+                <h3>Flower Store</h3>
+                <p class="pb-3"><em>Nơi cho bạn cảm giác bình yên</em></p>
+                <p>
+                  Bình Chánh, Thành Phố Hồ Chí Minh <br />
+                  <strong>Thông tin liên lạc: </strong> +84 379707960<br />
+                  <strong>Email:</strong> duongthikimngan12345@gmail.com<br />
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Chăm sóc khách hàng</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Trang Chủ</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Về chúng tôi</a>
+                </li>
+
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Dịch Vụ</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Điều khoản</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Pháp Luật</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Các dịch vụ khác</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Thiết Kế Web</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Phát Triển Web</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Thiết Kế Đồ Họa</a>
+                </li>
+              </ul>
+            </div> -->
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <!-- <h4>Our Newsletter</h4> -->
+              <p>Đăng kí để nhận những thông tin chi tiết về chúng tôi.</p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Trang Chủ</a></li>
-          <li><a class="nav-link scrollto" href="#about">Giới Thiệu</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Nghe Hoa Kể</a></li> -->
-          <li class="dropdown megamenu"><a href="#"><span>Sản Phẩm</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li>
-                <strong>Hoa bó </strong>
-                <a href="#">Flower Box</a>
-                <a href="#">Hoa Cưới</a>
-                <a href="#">Hoa Tang</a>
-              </li>
-              <li>
-                <strong>Hoa từng loại</strong>
-                <a href="#">Hoa tu líp</a>
-                <a href="#">Lan hồ điệp</a>
-                <a href="#">Hoa mẫu đơn</a>
-              </li>
-              <li>
-                <strong>Phụ Kiện</strong>
-                <a href="#">Bình Hoa</a>
-                <a href="#">Giỏ Hoa</a>
-                <a href="#">Hộp Hoa</a>
-              </li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#services">Nghe Hoa Kể</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Liên hệ</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
-      <h1>Envy's Store</h1>
-      <h2>Bình yên không đâu xa</h2>
-      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
       <div class="container">
-
-        <div class="row no-gutters">
-          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="content">
-              <h3>Envy's Store
-              </h3>
-              <p>
-              Cuộc sống tươi đẹp. Đó là thông điệp mà chúng tôi muốn truyền tải đến bạn, mỗi ngày của bạn hãy luôn rực rỡ, đầy năng lượng và nhiều yêu thương như những bông hoa biết nói.
-                Tiệm hoa Envy nằm giữa lòng Sài Gòn nhộn nhịp với những mảng tường xanh mát, nắng đan xen qua giàn dây leo lá rũ, tạo một cảm giác bình yên, nhẹ nhàng và gần gũi . 
-                Mời bạn ghé thăm ngôi nhà rất thơ này để cùng ngắm nhìn nhiều loại hoa tươi trong nước đến các loại hoa cao cấp nhập khẩu từ Ecuador, Hà Lan, Nam Phi, Nhật Bản… Đội ngũ Florist chúng tôi - các bạn trẻ đầy sáng tạo, đam mê và nhiệt huyết với mong muốn tạo được sự gắn kết cảm xúc và lan toả yêu thương qua những bông hoa tươi thắm. Mỗi một sản phẩm hoa hoàn thiện được trao đến tay khách hàng là tất cả sự tận tâm và trân trọng của chúng tôi .
-              </p>
-              <a href="#" class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
-            </div>
-          </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Chứng nhận cấp quốc gia</h4>
-                  <p>Chứng nhận được cấp ngày 11-11-2022. Cam kết mang đến cho khách hàng những sản phẩm tốt đẹp nhất</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Nguồn hàng đáng tin cậy</h4>
-                  <p>Chúng tôi luôn theo sát quá trình nhập, xuất khẩu. </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-images"></i>
-                  <h4>Hình ảnh chân thật</h4>
-                  <p>Chúng tôi cam đoan những sản phẩm mang đến khách hàng giống hình 100%</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Đảm bảo an toàn</h4>
-                  <p>Mọi sản phẩm đều được chúng tôi kiểm tra nghiêm ngặt</p>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
+        <div class="copyright">
+          &COPY; Copyright <strong><span>Kim Ngan</span></strong
+          >. All Rights Reserved
         </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-   
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts  section-bg">
-      <div class="container">
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Khách hàng cảm thấy hài lòng</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Sản Phẩm</strong> đã được bán đi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Phản hồi tích cực</strong> từ khách hàng</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>Sản Phẩm Nổi Bật</h2>
-          <p>Trên đây là các sản phẩm nổi bật được người tiêu dùng yêu thích</p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Hoa bó</li>
-              <li data-filter=".filter-card">Hoa từng loại</li>
-              <li data-filter=".filter-web">Phụ kiện</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/download.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/download.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/binhhoa.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/binhhoa.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/images (1).jpeg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/images (1).jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Hoatulip.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Hoatulip.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Binhhoa.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Binhhoa.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/images.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/images.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/cay-tu-dinh-huong-600x529.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/cay-tu-dinh-huong-600x529.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/hoa-hong-nhung-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/hoa-hong-nhung-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Binhhoa3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Binhhoa3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>Đội ngũ nhân sự</h2>
-          <p>Với kinh nghiệm nghiên cứu nhiều năm, chúng tôi luông mong muốn mang đến những sản phẩm chất lượng cho quý khách
-
-          </p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="fade-up">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Nguyễn Văn A</h4>
-                <span>CEO - Envy store</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="150">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Madam</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Nguyễn Phạm Xuân Đạt</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Thông tin liên lạc</h2>
-          <p>Mọi thắc mắc vui lòng liên hệ thông tin bên dưới, mọi thắc mắc của các bạn sẽ được giải đáp. Xin cảm ơn!</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Địa Chỉ</h3>
-              <p>Quận 7, Thành Phố Hồ Chí Minh</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email</h3>
-              <p>Enzy721@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Thông Tin Liên Lạc</h3>
-              <p>+84 392382707</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62719.35685987481!2d106.6933227169938!3d10.737581490979144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752560b050b093%3A0x6dcb89c51055ccc9!2zUXXhuq1uIDcsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1681037968701!5m2!1svi!2s" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>Envy's Store</h3>
-              <p class="pb-3"><em>Nơi cho bạn cảm giác bình yên</em></p>
-              <p>
-                Quận 7, Thành Phố Hồ Chí Minh <br>
-                <strong>Thông tin liên lạc: </strong> +84 392382707<br>
-                <strong>Email:</strong> Enzy721@gmail.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Trang Chủ</li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Về chúng tôi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Dịch Vụ</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Điều khoản</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pháp Luật</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Các dịch vụ khác</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Thiết Kế Web</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Phát Triển Web</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li> -->
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Thiết Kế Đồ Họa</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <!-- <h4>Our Newsletter</h4> -->
-            <p>Đăng kí để nhận những thông tin chi tiết về chúng tôi.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
+          Designed by <a href="https://Envy.com">Kim Ngan</a>
         </div>
       </div>
-    </div>
+    </footer>
+    <!-- End Footer -->
 
-    <div class="container">
-      <div class="copyright">
-        &COPY; Copyright <strong><span>Envy</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
-        Designed by <a href="https://Envy.com">Envy</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
